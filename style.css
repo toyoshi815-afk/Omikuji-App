@@ -2,6 +2,7 @@
 
 :root {
   --bs-color: #cd1313;
+  --main-width: 460px
 }
 
 * {
@@ -17,12 +18,12 @@ body {
 
 .wrapper {
   margin: 0 auto;
-  max-width: 500px;
+  max-width: var(--main-width);
 }
 
 .omikuji-outline {
   padding: 20px;
-  width: 500px;
+  width: var(--main-width);
   height: 100vh;
   background-color: #fff;
 }
