@@ -61,7 +61,7 @@ body {
 .omikuji_result {
   margin-top: 70px;
   width: 100%;
-  height: 350px;
+  min-height: (350px, 40vh);
 }
 
 .omikuji_result img {
@@ -83,4 +83,12 @@ body {
   color: #fff;
   border: 8px double #fff;
   cursor: pointer;
+}
+
+@media(max-width: 460px) {
+
+.omikuji h1 {
+margin-top: 30px;
+}
+
 }
